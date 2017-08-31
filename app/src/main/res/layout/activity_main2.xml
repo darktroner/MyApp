@@ -4,26 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context="oscarapp.myapp.Main2Activity">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Usuario"
-        android:layout_margin="16dp"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Contraseña"
-        android:layout_margin="16dp" />
-
     <Button
+        android:id="@+id/btnCambiarActividad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Ir al login"
+        android:textSize="16dp"
+        android:textColor="#FFFFFF"
+        android:background="#FF0000"
         android:layout_margin="16dp"/>
+
 
 
 </LinearLayout>
